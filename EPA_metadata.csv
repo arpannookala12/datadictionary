@@ -1,0 +1,151 @@
+Field Name,Description,Data Source,Geographic Coverage*
+GEOID10,Census block group 12-digit FIPS code (2010),2010 Census TIGER/Line,"50 States, PR, OT"
+GEOID20**,Census block group 12-digit FIPS code (2018),2019 Census TIGER/Line,"50 States, PR, OT"
+STATEFP,State FIPS code,2019 Census TIGER/Line,"50 States, PR, OT"
+COUNTYFP,County FIPS code,2019 Census TIGER/Line,"50 States, PR, OT"
+TRACTCE,Census tract FIPS code in which CBG resides,2019 Census TIGER/Line,"50 States, PR, OT"
+BLKGRPCE,Census block group FIPS code in which CBG resides,2019 Census TIGER/Line,"50 States, PR, OT"
+CSA,Combined Statistical Area (CSA) Code,US Census,"50 States, PR, OT"
+CSA_Name,Name of CSA in which CBG resides,US Census,"50 States, PR, OT"
+CBSA,FIPS for Core-Based Statistical Area (CBSA) in which CBG resides,US Census,"50 States, PR, OT"
+CBSA_Name,Name of CBSA in which CBG resides,US Census,"50 States, PR, OT"
+CBSA_Pop,Total population in CBSA - (Dataset includes Blockwise mean and median localized to Census Tract) ,2018 US Census ACS (5-Year Estimate),"50 States, PR"
+CBSA_Emp,Total employment in CBSA - (Dataset includes Blockwise mean and median localized to Census Tract) ,"2017 Census LEHD,","50 States, PR"
+CBSA_Wrk,Total number of workers that live in CBSA - (Dataset includes Blockwise mean and median localized to Census Tract) ,"2017 Census LEHD,","50 States, PR"
+Ac_Total,Total geometric area (acres) of the CBG - (Dataset includes Blockwise mean and median localized to Census Tract) ,2019 Census TIGER/Line,"50 States, PR, OT"
+Ac_Water,Total water area (acres) - (Dataset includes Blockwise mean and median localized to Census Tract) ,"Census, 2018 HERE Maps NAVTREETS, HERE Maps
+ Water & Oceans, 2018 USGS PAD-US, USGS National
+ Hydrography Data Plus","50 States, PR, OT"
+Ac_Land,Total land area (acres) - (Dataset includes Blockwise mean and median localized to Census Tract) ,"Census, 2018 HERE Maps NAVTREETS, HERE Maps
+ Water & Oceans, 2018 USGS PAD-US, USGS National
+ Hydrography Data Plus","50 States, PR, OT"
+Ac_Unpr,"Total land area (acres) that is not protected from development (i.e., not a park, natural area or conservation area) - (Dataset includes Blockwise mean and median localized to Census Tract) ","Census, 2018 HERE Maps NAVTREETS, HERE Maps Parks, 2018 USGS PAD-US,
+ USGS National Hydrography Data Plus","50 States, PR, OT"
+TotPop,"Population, 2018 - (Dataset includes Blockwise mean and median localized to Census Tract) ","2018 Census ACS (5-Year Estimate), 2010 Decennial
+ Census (OT only)","50 States, PR, OT"
+CountHU,"Housing units, 2018 - (Dataset includes Blockwise mean and median localized to Census Tract) ","2018 Census ACS (5-Year Estimate), 2010 Decennial
+ Census (OT only)","50 States, PR, OT"
+HH,"Households (occupied housing units), 2018 - (Dataset includes Blockwise mean and median localized to Census Tract) ","2018 Census ACS (5-Year
+ Estimate), 2010 Decennial Census (OT only)","50 States, PR, OT"
+P_WrkAge,"Percent of population that is working aged 18 to 64 years, 2018 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2018 Census ACS (5-Year Estimate),"50 States, PR"
+AutoOwn0,"Number of households in CBG that own zero automobiles, 2018 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2018 Census ACS (5-Year Estimate),"50 States, PR"
+Pct_AO0,"Percent of zero-car households in CBG, 2018 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2018 Census ACS (5-Year Estimate),"50 States, PR"
+AutoOwn1,"Number of households in CBG that own one automobile, 2018 - (Dataset includes Blockwise mean and median localized to Census Tract) ","2018 Census ACS (5-Year
+ Estimate)","50 States, PR"
+Pct_AO1,"Percent of one-car households in CBG, 2018 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2018 Census ACS (5-Year Estimate),"50 States, PR"
+AutoOwn2p,"Number of households in CBG that own two or more automobiles, 2018 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2018 Census ACS (5-Year Estimate),"50 States, PR"
+Pct_AO2p,"Percent of two-plus-car households in CBG, 2018 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2018 Census ACS (5-Year Estimate),"50 States, PR"
+Workers,"Count of workers in CBG (home location), 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD RAC,50 States
+R_LowWageWk,"Count of workers earning $1250/month or less (home location), 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD RAC,50 States
+R_MedWageWk,"Count of workers earning more than $1250/month but less than $3333/month (home location), 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD RAC,50 States
+R_HiWageWk,"Count of workers earning $3333/month or more (home location), 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD RAC,50 States
+R_PctLowWage,"Percent of low wage workers in a CBG (home location), 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD RAC,50 States
+TotEmp,"Total employment, 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD WAC,50 States
+E5_Ret,"Retail jobs within a 5-tier employment classification scheme (LEHD: CNS07), 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD WAC,50 States
+E5_Off,"Office jobs within a 5-tier employment classification scheme (LEHD: CNS09 + CNS10 + CNS11 + CNS13 +CNS20) , 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD WAC,50 States
+E5_Ind,"Industrial jobs within a 5-tier employment classification  scheme (LEHD: CNS01 + CNS02 + CNS03 + CNS04 + CNS05 + CNS06 + CNS08) , 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD WAC,50 States
+E5_Svc,"Service jobs within a 5-tier employment classification scheme (LEHD: CNS12 + CNS14 + CNS15 + CNS16 + CNS19),2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD WAC,50 States
+E5_Ent,"Entertainment jobs within a 5-tier employment classification scheme (LEHD: CNS17 + CNS18), 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD WAC,50 States
+E8_Ret,"Retail jobs within an 8-tier employment classification scheme (LEHD: CNS07), 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD WAC,50 States
+E8_Off,"Office jobs within an 8-tier employment classification scheme (LEHD: CNS09 + CNS10 + CNS11 + CNS13) , 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD WAC,50 States
+E8_Ind,"Industrial jobs within an 8-tier employment classification scheme (LEHD: CNS01 + CNS02 + CNS03 + CNS04 + CNS05 + CNS06 + CNS08) , 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD WAC,50 States
+E8_Svc,"Service jobs within an 8-tier employment classification scheme (LEHD: CNS12 + CNS14 + CNS19) , 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD WAC,50 States
+E8_Ent,"Entertainment jobs within an 8-tier employment classification scheme (LEHD: CNS17 + CNS18), 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD WAC,50 States
+E8_Ed,"Education jobs within an 8-tier employment classification scheme (LEHD: CNS15), 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD WAC,50 States
+E8_Hlth,"Health care jobs within an 8-tier employment classification scheme (LEHD: CNS16), 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD WAC,50 States
+E8_Pub,"Public administration jobs within an 8-tier employment classification scheme (LEHD: CNS20), 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD WAC,50 States
+E_LowWageWk,"# of workers earning $1250/month or less (work location), 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD WAC,50 States
+E_MedWageWk,"# of workers earning more than $1250/month but less than $3333/month (work location), 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD WAC,50 States
+E_HiWageWk,"# of workers earning $3333/month or more (work location), 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD WAC,50 States
+E_PctLowWage,"% LowWageWk of total #workers in a CBG (work location), 2017 - (Dataset includes Blockwise mean and median localized to Census Tract) ",2017 Census LEHD WAC,50 States
+D1a,Gross residential density (HU/acre) on unprotected land - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,"50 States, PR, OT"
+D1b,Gross population density (people/acre) on unprotected land - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,"50 States, PR, OT"
+D1c,Gross employment density (jobs/acre) on unprotected land - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D1c5_Ret,Gross retail (5-tier) employment density (jobs/acre) on unprotected land - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D1c5_Off,Gross office (5-tier) employment density (jobs/acre) on unprotected land - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D1c5_Ind,Gross industrial (5-tier) employment density (jobs/acre) on unprotected land - (Dataset includes Blockwise mean and median localized to Census Tract) ,"Derived from other SLD
+ variables",50 States
+D1c5_Svc,Gross service (5-tier) employment density (jobs/acre) on unprotected land - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D1c5_Ent,Gross entertainment (5-tier) employment density (jobs/acre) on unprotected land - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D1c8_Ret,Gross retail (8-tier) employment density (jobs/acre) on unprotected land - (Dataset includes Blockwise mean and median localized to Census Tract) ,"Derived from other SLD
+ variables",50 States
+D1c8_Off,Gross office (8-tier) employment density (jobs/acre) on unprotected land - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D1c8_Ind,Gross industrial (8-tier) employment density (jobs/acre) on unprotected land - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D1c8_Svc,Gross service (8-tier) employment density (jobs/acre) on unprotected land - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D1c8_Ent,Gross entertainment (8-tier) employment density (jobs/acre) on unprotected land - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D1c8_Ed,Gross education(8-tier) employment density (jobs/acre) on unprotected land - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D1c8_Hlth,Gross health care (8-tier) employment density (jobs/acre) on unprotected land - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D1c8_Pub,"Gross retail (8-tier) employment density (jobs/acre) on - (Dataset includes Blockwise mean and median localized to Census Tract) 
+ unprotected land","Derived from other SLD
+ variables",50 States
+D1d,Gross activity density (employment + HUs) on unprotected land - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,"50 States (employment and housing), PR (housing only),
+ OT (housing only)"
+D1_Flag,Flag indicating that density metrics are based on total CBG land acreage rather than unprotected acreage - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,"50 States, PR, OT"
+D2a_JpHH,Jobs per household - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D2b_E5Mix,5-tier employment entropy (denominator set to observed employment types in the CBG) - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D2b_E5MixA,5-tier employment entropy (denominator set to the static 5 employment types in the CBG) - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D2b_E8Mix,8-tier employment entropy (denominator set to observed employment types in the CBG) - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D2b_E8MixA,8-tier employment entropy (denominator set to the static 8 employment types in the CBG) - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D2a_EpHHm,Employment and household entropy - (Dataset includes Blockwise mean and median localized to Census Tract) - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,"50 States, PR
+ (housing only), OT (housing only)"
+D2c_TrpMx1,Employment and Household entropy (based on vehicle trip production and trip attractions including all 5 employment categories) - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,"50 States, PR (housing only),
+ OT (housing only)"
+D2c_TrpMx2,"Employment and Household Entropy calculations, based on trips production and trip attractions including 4 of the 5 employment categories (excluding industrial) - (Dataset includes Blockwise mean and median localized to Census Tract) ",Derived from other SLD variables,"50 States, PR (housing only),
+ OT (housing only)"
+D2c_TripEq,"Trip productions and trip attractions equilibrium index; the closer to one, the more balanced the trip making - (Dataset includes Blockwise mean and median localized to Census Tract) ",Derived from other SLD variables,50 States
+D2r_JobPop,Regional Diversity. Standard calculation based on population and total employment: Deviation of CBG ratio of jobs/pop from the regional average ratio of jobs/pop - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,"50 States, PR (housing only)"
+D2r_WrkEmp,"Household Workers per Job, as compared to the region: Deviation of CBG ratio of household workers/job from regional average ratio of household workers/job - (Dataset includes Blockwise mean and median localized to Census Tract) ",Derived from other SLD variables,50 States
+D2a_WrkEmp,"Household Workers per Job, by CBG - (Dataset includes Blockwise mean and median localized to Census Tract) ",Derived from other SLD variables,50 States
+D2c_WrEmIx,Household Workers per Job Equilibrium Index; the closer to one the more balanced the resident workers and jobs in the CBG. - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D3a,Total road network density - (Dataset includes Blockwise mean and median localized to Census Tract) ,2018 HERE Maps NAVSTREETS,"50 States, PR, VI"
+D3aao,Network density in terms of facility miles of auto-oriented links per square mile - (Dataset includes Blockwise mean and median localized to Census Tract) ,2018 HERE Maps NAVSTREETS,"50 States, PR, VI"
+D3amm,Network density in terms of facility miles of multi-modal links per square mile - (Dataset includes Blockwise mean and median localized to Census Tract) ,2018 HERE Maps NAVSTREETS,"50 States, PR, VI"
+D3apo,Network density in terms of facility miles of pedestrian-oriented links per square mile - (Dataset includes Blockwise mean and median localized to Census Tract) ,"2018 HERE Maps
+ NAVSTREETS","50 States, PR, VI"
+D3b,"Street intersection density (weighted, auto-oriented intersections eliminated) - (Dataset includes Blockwise mean and median localized to Census Tract) ",2018 HERE Maps NAVSTREETS,"50 States, PR, VI"
+D3bao,Intersection density in terms of auto-oriented intersections per square mile - (Dataset includes Blockwise mean and median localized to Census Tract) ,2018 HERE Maps NAVSTREETS,"50 States, PR, VI"
+D3bmm3,"Intersection density in terms of multi-modal intersections - (Dataset includes Blockwise mean and median localized to Census Tract) 
+ having three legs per square mile","2018 HERE Maps
+ NAVSTREETS","50 States, PR, VI"
+D3bmm4,Intersection density in terms of multi-modal intersections having four or more legs per square mile - (Dataset includes Blockwise mean and median localized to Census Tract) ,2018 HERE Maps NAVSTREETS,"50 States, PR, VI"
+D3bpo3,Intersection density in terms of pedestrian-oriented intersections having three legs per square mile - (Dataset includes Blockwise mean and median localized to Census Tract) ,2018 HERE Maps NAVSTREETS,"50 States, PR, VI"
+D3bpo4,Intersection density in terms of pedestrian-oriented intersections having four or more legs per square mile - (Dataset includes Blockwise mean and median localized to Census Tract) ,2018 HERE Maps NAVSTREETS,"50 States, PR, VI"
+D4a,Distance from the population-weighted centroid to nearest transit stop (meters) - (Dataset includes Blockwise mean and median localized to Census Tract) ,"2020 GTFS, 2020 CTOD","50 States (participating
+ GTFS transit service areas), PR"
+D4b025,Proportion of CBG employment within ¼ mile of fixed- guideway transit stop - (Dataset includes Blockwise mean and median localized to Census Tract) ,"2020 GTFS, 2020 CTOD, 2018 USGS PAD-US, SLD
+ unprotected area polygons","50 States, PR"
+D4b050,Proportion of CBG employment within ½ mile of fixed- guideway transit stop - (Dataset includes Blockwise mean and median localized to Census Tract) ,"2020 GTFS, 2020 CTOD, 2018 USGS PAD-US","50 States, PR"
+D4c,Aggregate frequency of transit service within 0.25 miles of CBG boundary per hour during evening peak period - (Dataset includes Blockwise mean and median localized to Census Tract) ,2020 GTFS,"50 States (participating GTFS transit
+ service areas)"
+D4d,Aggregate frequency of transit service [D4c] per square mile - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,"50 States (participating
+ GTFS transit service areas)"
+D4e,Aggregate frequency of transit service [D4c] per capita - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,"50 States (participating
+ GTFS transit service areas)"
+D5ar,"Jobs within 45 minutes auto travel time, time- decay (network travel time) weighted - (Dataset includes Blockwise mean and median localized to Census Tract) ","2020 TravelTime API, 2017 Census LEHD",50 States
+D5ae,"Working age population within 45 minutes auto travel time, time-decay (network travel time) weighted - (Dataset includes Blockwise mean and median localized to Census Tract) ","2020 TravelTime API, 2018 Census ACS",50 States
+D5br,"Jobs within 45-minute transit commute, distance decay (walk network travel time, GTFS schedules) weighted - (Dataset includes Blockwise mean and median localized to Census Tract) ","2020 TravelTime API, 2017 Census LEHD, 2020 GTFS","50 States (participating GTFS transit
+ service areas)"
+D5be,"Working age population within 45-minute transit commute, time decay (walk network travel time, GTFS schedules) weighted - (Dataset includes Blockwise mean and median localized to Census Tract) ","2020 TravelTime API, 2018 Census ACS, 2020 GTFS","50 States (participating GTFS transit
+ service areas)"
+D5cr,Proportional Accessibility to Regional Destinations - Auto: Employment accessibility expressed as a ratio of total CBSA accessibility - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D5cri,Regional Centrality Index – Auto: CBG [D5cr] score relative to max CBSA [D5cr] score - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D5ce,Proportional Accessibility to Regional Destinations - Auto: Working age population accessibility expressed as a ratio of total CBSA accessibility - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D5cei,Regional Centrality Index – Auto: CBG [D5ce] score relative to max CBSA [D5ce] score - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D5dr,Proportional Accessibility of Regional Destinations - Transit: Employment accessibility expressed as a ratio of total MSA accessibility - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,50 States
+D5dri,Regional Centrality Index – Transit: CBG [D5dr] score relative to max CBSA [D5dr] score - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,"50 States (participating
+ GTFS transit service areas)"
+D5de,Proportional Accessibility of Regional Destinations - Transit: Working age population accessibility expressed as a ratio of total MSA accessibility - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,"50 States (participating
+ GTFS transit service areas)"
+D5dei,Regional Centrality Index – Transit: CBG [D5de] score relative to max CBSA [D5de] score - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,"50 States (participating GTFS transit
+ service areas)"
+D2A_Ranked,Quantile ranked order (1-20) of [D2a_EpHHm] from lowest to highest - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,"50 States (participating GTFS transit
+ service areas)"
+D2B_Ranked,Quantile ranked order (1-20) of [D2b_E8MixA] from lowest to highest- (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,"50 States (participating
+ GTFS transit service areas)"
+D3B_Ranked,Quantile ranked order (1-20) of [D3b] from lowest to highest - (Dataset includes Blockwise mean and median localized to Census Tract) ,Derived from other SLD variables,"50 States (participating
+ GTFS transit service areas)"
+D4A_Ranked,"Quantile ranked order (1,13-20)6 of [D4a] from lowest to highest - (Dataset includes Blockwise mean and median localized to Census Tract) ",Derived from other SLD variables,"50 States (participating GTFS transit
+ service areas)"
+NatWalkInd,"Walkability index comprised of weighted sum of the ranked values of [D2a_EpHHm] (D2A_Ranked), [D2b_E8MixA] (D2B_Ranked), [D3b] (D3B_Ranked) 
+and [D4a] (D4A_Ranked) ",Derived from other SLD variables,"50 States (participating GTFS transit
+ service areas)"
