@@ -15,13 +15,13 @@
 import streamlit as st
 from streamlit.logger import get_logger
 import pandas as pd
+from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode
 LOGGER = get_logger(__name__)
 
-
 def run():
+    st.set_page_config(layout="wide")
+    st.write("Data Dictionary (Data from CDC PLACES, EPA SLD, USGS Building Footprint)")
     df = pd.read_csv("CDC_metadata.csv")
-    st.dataframe(df)
-
-
+    st.dataframe(data=df,use_container_width=True)
 if __name__ == "__main__":
     run()
