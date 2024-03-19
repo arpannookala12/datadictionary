@@ -27,5 +27,7 @@ def run():
     df2 = pd.read_csv("EPA_metadata.csv")
     st.dataframe(data=df2,use_container_width=True)
     st.write("USGS Building Footprint")
+    df3 = pd.read_csv("USGSBFP_metadata.csv")
+    st.dataframe(data=df3,use_container_width=True)
 if __name__ == "__main__":
     run()

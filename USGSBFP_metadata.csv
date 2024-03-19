@@ -1,0 +1,11 @@
+Attribute Label,Attribute Definition,Attribute Definition Source
+AREAKEY,Block group unique id,"U.S. Census, as provided by GeoLytics, Inc."
+AREALAND,"Land area in block group, in square meters - (Dataset includes Blockwise mean and median localized to Census Tract)","U.S. Census, as provided by GeoLytics, Inc."
+AREAWATR,"Water area in block group, in square meters - (Dataset includes Blockwise mean and median localized to Census Tract)","U.S. Census, as provided by GeoLytics, Inc."
+value,Unique integer id of block group used for grid processing - (Dataset includes Blockwise mean and median localized to Census Tract),Producer-defined
+SUM,Sum of SRTM elevation data in meters for the block group - (Dataset includes Blockwise mean and median localized to Census Tract),Producer-defined
+SEPH,"Sum-elevation per hectare. Statistic used to categorize block groups, calculated as SUM/(AREALAND in hectares). - (Dataset includes Blockwise mean and median localized to Census Tract)",Producer-defined
+Height_cat,"Building height category of the block group: Low, Low-Medium, Medium, Medium-High, High, and Very High - (Dataset includes Blockwise min and max localized to Census Tract)",Producer-defined
+Cat_desc,Category description of each category: Low: Lowest category of building heights; primarily 1-2 story buildings; Low-Medium: 2nd lowest category; primarily 2-3 story buildings; Medium:  3rd lowest category; primarily 3-4 story buildings; Medium-High: 3rd highest category; primarily 3-6 story buildings; High: 2nd highest category: primarily 4-9 story buildings; Very High:  Highest category of building heights; buildings average 10 stories or higher - (Dataset includes Blockwise min and max localized to Census Tract),Producer-defined
+Shape_Length,Block group perimeter in meters - (Dataset includes Blockwise mean and median localized to Census Tract),Automatically generated
+Shape_Area,Block group area in square meters - (Dataset includes Blockwise mean and median localized to Census Tract),Automatically generated
