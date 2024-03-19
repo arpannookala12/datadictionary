@@ -20,13 +20,16 @@ LOGGER = get_logger(__name__)
 def run():
     st.set_page_config(layout="wide")
     st.write("Data Dictionary (Data from CDC PLACES, EPA SLD, USGS Building Footprint)")
-    st.write("CDC PLACES")
+    url1 = "https://chronicdata.cdc.gov/500-Cities-Places/PLACES-Census-Tract-Data-GIS-Friendly-Format-2023-/yjkw-uj5s"
+    st.write("CDC PLACES - Go to metadata [source](%s)"%url1)
     df1 = pd.read_csv("CDC_metadata.csv")
     st.dataframe(data=df1,use_container_width=True)
-    st.write("EPA SLD")
+    url2 = "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.epa.gov/system/files/documents/2023-10/epa_sld_3.0_technicaldocumentationuserguide_may2021_0.pdf"
+    st.write("EPA SLD - Go to metadata [source](%s)"%url2)
     df2 = pd.read_csv("EPA_metadata.csv")
     st.dataframe(data=df2,use_container_width=True)
-    st.write("USGS Building Footprint")
+    url3 = "https://www.sciencebase.gov/catalog/file/get/5775469ce4b07dd077c7088a?f=__disk__48%2F5f%2Fbe%2F485fbece9f077c7271822e787e45a505ede77d02&transform=1&allowOpen=true"
+    st.write("USGS Building Footprint - Go to metadata [source](%s)"%url3)
     df3 = pd.read_csv("USGSBFP_metadata.csv")
     st.dataframe(data=df3,use_container_width=True)
 if __name__ == "__main__":
