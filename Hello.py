@@ -24,7 +24,7 @@ def run():
     st.write("CDC PLACES - Go to metadata [source](%s)"%url1)
     df1 = pd.read_csv("CDC_metadata.csv")
     st.dataframe(data=df1,use_container_width=True)
-    url2 = "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.epa.gov/system/files/documents/2023-10/epa_sld_3.0_technicaldocumentationuserguide_may2021_0.pdf"
+    url2 = "https://www.epa.gov/system/files/documents/2023-10/epa_sld_3.0_technicaldocumentationuserguide_may2021_0.pdf"
     st.write("EPA SLD - Go to metadata [source](%s)"%url2)
     df2 = pd.read_csv("EPA_metadata.csv")
     st.dataframe(data=df2,use_container_width=True)
